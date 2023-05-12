@@ -1,0 +1,749 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19044.2846; Version 2009; 64bit' Language: 'ko' Physical Memory: 16313 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/SM/roller coaster
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+6598
+Successfully changed project path to: C:/Users/SM/roller coaster
+C:/Users/SM/roller coaster
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/SM/roller coaster/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007305 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2959ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (460ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011860 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.440 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1442ms)
+		BeginReloadAssembly (263ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.82 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 2.515200 ms (FindLiveObjects: 0.273000 ms CreateObjectMapping: 0.052700 ms MarkObjects: 2.093600 ms  DeleteObjects: 0.094500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/MarsEnv/Scene/Mars_scene.unity
+  artifactKey: Guid(a63e9e46ee270c44aabcd8111bfacd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MarsEnv/Scene/Mars_scene.unity using Guid(a63e9e46ee270c44aabcd8111bfacd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb095f089bc94171b3e7d919bcce55a8') in 0.015513 seconds 
+  Import took 0.017751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/MarsEnv/Shaders
+  artifactKey: Guid(869cea618397cb246817c9e5e9ef2cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MarsEnv/Shaders using Guid(869cea618397cb246817c9e5e9ef2cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a91d0e3cdd54a1f63165a623d9d8675') in 0.004988 seconds 
+  Import took 0.007418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/MarsEnv/Scene
+  artifactKey: Guid(c4cbb0853467b5b42993970ec70ce462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MarsEnv/Scene using Guid(c4cbb0853467b5b42993970ec70ce462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26763e50e35f1c1c6c237d8b32997a0') in 0.005980 seconds 
+  Import took 0.008301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.798670 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/Materials/Mobile
+  artifactKey: Guid(f13b4160ade38cf4e95c689bfb1e5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/Materials/Mobile using Guid(f13b4160ade38cf4e95c689bfb1e5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77524e33d4b01cd371340b518483f418') in 0.005099 seconds 
+  Import took 0.007461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.383405 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/steel 1 linear motor.fbx
+  artifactKey: Guid(37df403640ee2854d8f68b2d69a726d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/steel 1 linear motor.fbx using Guid(37df403640ee2854d8f68b2d69a726d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fbaef95904ffdf6616d7141870f9b4') in 0.646811 seconds 
+  Import took 0.649905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.176855 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/steel 1 station end.fbx
+  artifactKey: Guid(de7c3554d54b50a42bcb353a5f8a749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/steel 1 station end.fbx using Guid(de7c3554d54b50a42bcb353a5f8a749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1f37c66cda2074ec873034b3f78ddf') in 0.556742 seconds 
+  Import took 0.560174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.020910 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/steel 1 station.fbx
+  artifactKey: Guid(c92fe940863dcdc4991e6c480e71b535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/steel 1 station.fbx using Guid(c92fe940863dcdc4991e6c480e71b535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c436afdd081e79ae8722aabf1cd486') in 0.378493 seconds 
+  Import took 0.382194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.080992 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/steel 1.fbx
+  artifactKey: Guid(4987eb7c21d66f148881ae0bb2ea172d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/steel 1.fbx using Guid(4987eb7c21d66f148881ae0bb2ea172d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9859fb3c84903c5bd7eb761d823a5f9') in 0.163873 seconds 
+  Import took 0.166624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.520170 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/steel 1 md.fbx
+  artifactKey: Guid(6ea5f82308ed3ee4b805770279e23084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/steel 1 md.fbx using Guid(6ea5f82308ed3ee4b805770279e23084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b04948ce372d34707e7d99ac04cf9e') in 0.100727 seconds 
+  Import took 0.103028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.432873 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/steel 1 lift ld.fbx
+  artifactKey: Guid(dbea675fb2510784e85a4dc2c215df62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/steel 1 lift ld.fbx using Guid(dbea675fb2510784e85a4dc2c215df62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c354d7de9ec0f74af419aa291442c3') in 0.044326 seconds 
+  Import took 0.047017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.569857 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/steel 1 lift.fbx
+  artifactKey: Guid(100c152479f1b8e408d6d0e64b75f695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/steel 1 lift.fbx using Guid(100c152479f1b8e408d6d0e64b75f695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a19896c333be9d36d974443aacaad1') in 0.225317 seconds 
+  Import took 0.228339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.626540 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/steel 1 ld.fbx
+  artifactKey: Guid(466c79cc3923bc946b0d90f1862f73d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/steel 1 ld.fbx using Guid(466c79cc3923bc946b0d90f1862f73d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce37a6cd06948fec2b3fb2a4258ee174') in 0.044701 seconds 
+  Import took 0.047585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.001389 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/coaster colli 2.fbx
+  artifactKey: Guid(993ee0d90355d9542a6b3361ea4001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/coaster colli 2.fbx using Guid(993ee0d90355d9542a6b3361ea4001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1a3b82aeb38f82433197bd970b599c') in 0.018013 seconds 
+  Import took 0.020675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001234 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/coaster colli 2.fbx
+  artifactKey: Guid(993ee0d90355d9542a6b3361ea4001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/coaster colli 2.fbx using Guid(993ee0d90355d9542a6b3361ea4001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1a3b82aeb38f82433197bd970b599c') in 0.017918 seconds 
+  Import took 0.020173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.053743 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/coaster colli 1.fbx
+  artifactKey: Guid(fc7934ea9b4aa1d4baca7869187c7aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/coaster colli 1.fbx using Guid(fc7934ea9b4aa1d4baca7869187c7aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff9bcfb2b7b41c83119f061c320c31c') in 0.017431 seconds 
+  Import took 0.020028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.517359 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT/Materials
+  artifactKey: Guid(e35e830deda069c4db0be27d1260624b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT/Materials using Guid(e35e830deda069c4db0be27d1260624b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d5d3a3b36bfbbc58a4c80e00cf24a2') in 0.005454 seconds 
+  Import took 0.008141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.373532 seconds.
+  path: Assets/laxer Assets/coaster/models/pillar.fbx
+  artifactKey: Guid(15a8196f6c946b249ae43ab58b2fefa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/models/pillar.fbx using Guid(15a8196f6c946b249ae43ab58b2fefa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab9c8e13bfe9d3f787988248d7b17a8') in 0.078455 seconds 
+  Import took 0.081353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.800958 seconds.
+  path: Assets/laxer Assets/coaster/models/cart 1.fbx
+  artifactKey: Guid(a6eac40eb9f6eec46946a0696925143e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/models/cart 1.fbx using Guid(a6eac40eb9f6eec46946a0696925143e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c375836dd6bb3beb5ebdb6e73bb2b2') in 0.235370 seconds 
+  Import took 0.238162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.186101 seconds.
+  path: Assets/laxer Assets/coaster/models/base1.fbx
+  artifactKey: Guid(648b240ba7411c14fbe517864df9e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/models/base1.fbx using Guid(648b240ba7411c14fbe517864df9e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca335f4f08994b09d65e7ae9cff589b9') in 0.068416 seconds 
+  Import took 0.070928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.158866 seconds.
+  path: Assets/laxer Assets/coaster/models/cart v2.fbx
+  artifactKey: Guid(05aa7bf557271c147917118374ed8af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/models/cart v2.fbx using Guid(05aa7bf557271c147917118374ed8af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2475958d47988d47e044806d1e29a9cc') in 0.144465 seconds 
+  Import took 0.147245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.357176 seconds.
+  path: Assets/laxer Assets/coaster/Other/CoasterControllerSWLXR.cs
+  artifactKey: Guid(1d443715e4680384cbcf893e3ece3c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Other/CoasterControllerSWLXR.cs using Guid(1d443715e4680384cbcf893e3ece3c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e888637897db541e768162c554ca13c1') in 0.085042 seconds 
+  Import took 0.087615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.923814 seconds.
+  path: Assets/laxer Assets/coaster/Sounds/coaster wind.wav
+  artifactKey: Guid(02f6f9401f68a0d47aae417833a04c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Sounds/coaster wind.wav using Guid(02f6f9401f68a0d47aae417833a04c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557b39d70e487dd1215d4d95ac6d0631') in 0.040194 seconds 
+  Import took 0.042720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.877359 seconds.
+  path: Assets/laxer Assets/coaster/Sounds/coaster rolling.wav
+  artifactKey: Guid(038b5bb19acd1f14e87b80543c0cffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Sounds/coaster rolling.wav using Guid(038b5bb19acd1f14e87b80543c0cffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed1b5e261509652d6356ba2be7c3655') in 0.014187 seconds 
+  Import took 0.017196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003304 seconds.
+  path: Assets/laxer Assets/coaster/Sounds/coaster rolling.wav
+  artifactKey: Guid(038b5bb19acd1f14e87b80543c0cffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Sounds/coaster rolling.wav using Guid(038b5bb19acd1f14e87b80543c0cffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed1b5e261509652d6356ba2be7c3655') in 0.011017 seconds 
+  Import took 0.013374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.089037 seconds.
+  path: Assets/laxer Assets/coaster/Sounds/coaster lift motor.wav
+  artifactKey: Guid(f2a62144bdd782c49a1fc6c527503a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Sounds/coaster lift motor.wav using Guid(f2a62144bdd782c49a1fc6c527503a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cae25df104260456fb40fde1ead1b15') in 0.012094 seconds 
+  Import took 0.014422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002880 seconds.
+  path: Assets/laxer Assets/coaster/Sounds/coaster lift motor.wav
+  artifactKey: Guid(f2a62144bdd782c49a1fc6c527503a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Sounds/coaster lift motor.wav using Guid(f2a62144bdd782c49a1fc6c527503a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cae25df104260456fb40fde1ead1b15') in 0.009960 seconds 
+  Import took 0.012118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.318665 seconds.
+  path: Assets/laxer Assets/coaster/Sounds/coaster Thunder.wav
+  artifactKey: Guid(40248156e3702f04395e5cf886c7325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Sounds/coaster Thunder.wav using Guid(40248156e3702f04395e5cf886c7325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3058919c3cdd55d4e0d5c8e49d24f59f') in 0.012535 seconds 
+  Import took 0.014855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002508 seconds.
+  path: Assets/laxer Assets/coaster/Sounds/coaster Thunder.wav
+  artifactKey: Guid(40248156e3702f04395e5cf886c7325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Sounds/coaster Thunder.wav using Guid(40248156e3702f04395e5cf886c7325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3058919c3cdd55d4e0d5c8e49d24f59f') in 0.010935 seconds 
+  Import took 0.013054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.911952 seconds.
+  path: Assets/laxer Assets/coaster/Sounds/lift ratchet.wav
+  artifactKey: Guid(0070403ab14a0ca40a4d2bfc88d614a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Sounds/lift ratchet.wav using Guid(0070403ab14a0ca40a4d2bfc88d614a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d86a1f3a15fa03fcbb80bc317a29fd') in 0.013582 seconds 
+  Import took 0.016424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002452 seconds.
+  path: Assets/laxer Assets/coaster/Sounds/lift ratchet.wav
+  artifactKey: Guid(0070403ab14a0ca40a4d2bfc88d614a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Sounds/lift ratchet.wav using Guid(0070403ab14a0ca40a4d2bfc88d614a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d86a1f3a15fa03fcbb80bc317a29fd') in 0.010492 seconds 
+  Import took 0.013065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.210587 seconds.
+  path: Assets/laxer Assets/coaster/textures/rail metallic.png
+  artifactKey: Guid(e68e300498649d844a8e243d7a1c84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/textures/rail metallic.png using Guid(e68e300498649d844a8e243d7a1c84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fd388696d61c20ee4053dac6e4a272') in 0.072009 seconds 
+  Import took 0.074753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005074 seconds.
+  path: Assets/laxer Assets/coaster/textures/rail metallic.png
+  artifactKey: Guid(e68e300498649d844a8e243d7a1c84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/textures/rail metallic.png using Guid(e68e300498649d844a8e243d7a1c84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fd388696d61c20ee4053dac6e4a272') in 0.052287 seconds 
+  Import took 0.054743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.776093 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE-124432.asset
+  artifactKey: Guid(00d158591b5962542beef16d117d4a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE-124432.asset using Guid(00d158591b5962542beef16d117d4a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a164e38690194f7a3a5fd7c67a5cdc') in 0.016860 seconds 
+  Import took 0.019611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.679356 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE-128274.asset
+  artifactKey: Guid(7333ed8d73ff36f44a4d3fb02f6194f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE-128274.asset using Guid(7333ed8d73ff36f44a4d3fb02f6194f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb9baa6a730311d0f535699ba4292fc') in 0.013284 seconds 
+  Import took 0.016097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.518243 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE-133688.asset
+  artifactKey: Guid(32830c0e5e9756847b88a4cdd28acb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE-133688.asset using Guid(32830c0e5e9756847b88a4cdd28acb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b009e201e184ed2e8aef58cedc1ca870') in 0.021167 seconds 
+  Import took 0.023586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.338402 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8158.asset
+  artifactKey: Guid(b03764b59e308d64bba90779dc246289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8158.asset using Guid(b03764b59e308d64bba90779dc246289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6deba3a35a4dec921106ba7269bdab2') in 0.013198 seconds 
+  Import took 0.015720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.133694 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9224.asset
+  artifactKey: Guid(b2635e53ed0713c4b9013e2455e5dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9224.asset using Guid(b2635e53ed0713c4b9013e2455e5dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8922b2a2b03ab71a49cc838636464823') in 0.014131 seconds 
+  Import took 0.016900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.854688 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9296.asset
+  artifactKey: Guid(39eca01bcd9597042a8884287abc97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9296.asset using Guid(39eca01bcd9597042a8884287abc97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4fb522b44b60b5913330e686387beb') in 0.013439 seconds 
+  Import took 0.015964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962793 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9206.asset
+  artifactKey: Guid(64eb3c826d15af047af42a2d70e7821e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9206.asset using Guid(64eb3c826d15af047af42a2d70e7821e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b0480d1d902db182ffdf941b71e6f0') in 0.013062 seconds 
+  Import took 0.015756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.365627 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9012.asset
+  artifactKey: Guid(0aace764a159c534589d948ea8ffa36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9012.asset using Guid(0aace764a159c534589d948ea8ffa36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893f888c4b0072807f40ee4c368f2300') in 0.012974 seconds 
+  Import took 0.015730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.480236 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8904.asset
+  artifactKey: Guid(c7407f39075a15a4ebdefc539c6ddada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8904.asset using Guid(c7407f39075a15a4ebdefc539c6ddada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fa034172c8a9970e5debd41dd98836') in 0.013898 seconds 
+  Import took 0.016561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.615054 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8864.asset
+  artifactKey: Guid(7e72e08259297e542a6a1740690d6fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8864.asset using Guid(7e72e08259297e542a6a1740690d6fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7773b36f5000e74a397833ae907c0db') in 0.012773 seconds 
+  Import took 0.015352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.704491 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8866.asset
+  artifactKey: Guid(ff25370af3149614f8995dc2166985ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8866.asset using Guid(ff25370af3149614f8995dc2166985ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29d95cf3ce80d2ce59065cea0927251') in 0.013533 seconds 
+  Import took 0.016072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.328136 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8858.asset
+  artifactKey: Guid(a54b7cc5a2b975d46909c4420c81b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE8858.asset using Guid(a54b7cc5a2b975d46909c4420c81b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3a10833ac76a5c6e0ebb6103ec0ff6') in 0.013049 seconds 
+  Import took 0.015532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.568541 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9842.asset
+  artifactKey: Guid(7269546cf0ceefe4e9ce790a2eafc929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE9842.asset using Guid(7269546cf0ceefe4e9ce790a2eafc929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478b02bf9fa40140dd52d87460b0974d') in 0.013423 seconds 
+  Import took 0.016128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731041 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10144.asset
+  artifactKey: Guid(508e6cf5b0d8ba444a8950a4791a4f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10144.asset using Guid(508e6cf5b0d8ba444a8950a4791a4f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9871f8cf36e95a74d34f9b37ed101f6a') in 0.013580 seconds 
+  Import took 0.016210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.796224 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10404.asset
+  artifactKey: Guid(1360ec7682663b2429096dc50f8a64fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10404.asset using Guid(1360ec7682663b2429096dc50f8a64fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33a0871ba664c12b7828661ce247017') in 0.013646 seconds 
+  Import took 0.017033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.639066 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10710.asset
+  artifactKey: Guid(bcd71be14aa98a645b8d49a6f8582142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10710.asset using Guid(bcd71be14aa98a645b8d49a6f8582142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a3d775722acd07822ea70abfcb3571') in 0.013473 seconds 
+  Import took 0.015998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551527 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10644.asset
+  artifactKey: Guid(c31f06e2dad258540bd74a075aa85aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10644.asset using Guid(c31f06e2dad258540bd74a075aa85aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440cb094225234a775ed853046bd9bb2') in 0.012108 seconds 
+  Import took 0.014712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.340772 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10554.asset
+  artifactKey: Guid(00e40c96b46045d458d44427c7f2b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10554.asset using Guid(00e40c96b46045d458d44427c7f2b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27340b22b2ee12a84ac825106ded93b7') in 0.013028 seconds 
+  Import took 0.015726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388453 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10796.asset
+  artifactKey: Guid(211dc756bb5d3a946861b5d6ca6fd219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE10796.asset using Guid(211dc756bb5d3a946861b5d6ca6fd219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0109c2f2bda87a6b209e66ee87ce774c') in 0.012681 seconds 
+  Import took 0.015242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.665648 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE11090.asset
+  artifactKey: Guid(e6438ae7a43fdd840a40f1da7d8ecbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE11090.asset using Guid(e6438ae7a43fdd840a40f1da7d8ecbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475801ea611ffa2269680637a9d2c879') in 0.013020 seconds 
+  Import took 0.015710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591173 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE11428.asset
+  artifactKey: Guid(7ffb5f84d32ee3640aa1f4f09af41d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE11428.asset using Guid(7ffb5f84d32ee3640aa1f4f09af41d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37b2b865bdc7da5fde926e1376220fe') in 0.013499 seconds 
+  Import took 0.016147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.567821 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE11806.asset
+  artifactKey: Guid(249aeab9edf8be74b8aefe93466131dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE11806.asset using Guid(249aeab9edf8be74b8aefe93466131dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e1c5f606419a06108b178335af8c09') in 0.013684 seconds 
+  Import took 0.016425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.790963 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE11850.asset
+  artifactKey: Guid(3fa430104e95b134faaab79d01caedc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE11850.asset using Guid(3fa430104e95b134faaab79d01caedc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0e68e4c7ee31645ef35abeaee7783f') in 0.013351 seconds 
+  Import took 0.016165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.608412 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12144.asset
+  artifactKey: Guid(41c0c279c0dd0a74cbd37ad42371846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12144.asset using Guid(41c0c279c0dd0a74cbd37ad42371846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ffc130e72fb13e8abafad386a3c8a3') in 0.012769 seconds 
+  Import took 0.015495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959998 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12340.asset
+  artifactKey: Guid(e3c124b354e9a1949bb5eafdd3873206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12340.asset using Guid(e3c124b354e9a1949bb5eafdd3873206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e664a4e3d50d421e85d6e1ac3ec2834e') in 0.013327 seconds 
+  Import took 0.015851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.440077 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12218.asset
+  artifactKey: Guid(ea5872f09fbb1304281349d2285ef718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12218.asset using Guid(ea5872f09fbb1304281349d2285ef718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e6683a4e87a8043d1a324a66bd71ec') in 0.013066 seconds 
+  Import took 0.015607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408669 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12164.asset
+  artifactKey: Guid(452d0bcea30ccf341ba2d62d8d7185a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12164.asset using Guid(452d0bcea30ccf341ba2d62d8d7185a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b370af06983e14215a0064df5e255dd2') in 0.012849 seconds 
+  Import took 0.015358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.708495 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12600.asset
+  artifactKey: Guid(0fea0b2dd90cefd4e8045df0a52bbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12600.asset using Guid(0fea0b2dd90cefd4e8045df0a52bbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da584097f5c8dcb1a4269bb4deda4920') in 0.013276 seconds 
+  Import took 0.015845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.523847 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12728.asset
+  artifactKey: Guid(a8b4da4e40419d14a8a53ca49106d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12728.asset using Guid(a8b4da4e40419d14a8a53ca49106d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e3c4ad2ac207d8db886932899abd21') in 0.013538 seconds 
+  Import took 0.016106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.919439 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12904.asset
+  artifactKey: Guid(b5004197123114b4db6b47199080139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE12904.asset using Guid(b5004197123114b4db6b47199080139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab3faa7474e79b8e29a59e199aa7795') in 0.013771 seconds 
+  Import took 0.016346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.655623 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE13194.asset
+  artifactKey: Guid(65590451d16ff774aa85b96a5fb64a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE13194.asset using Guid(65590451d16ff774aa85b96a5fb64a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5af990d6ce881624ff5717025a9992') in 0.013180 seconds 
+  Import took 0.015792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.440064 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE13630.asset
+  artifactKey: Guid(cf178037975eda84596dd8ce17390b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE13630.asset using Guid(cf178037975eda84596dd8ce17390b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a148e286d26c870384fde4b61354c320') in 0.013399 seconds 
+  Import took 0.016049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.352724 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE13670.asset
+  artifactKey: Guid(9f09fc6238841994e86c64dd2873f580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE13670.asset using Guid(9f09fc6238841994e86c64dd2873f580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59875bddf8b8aaf0705d5e29743bec5') in 0.013899 seconds 
+  Import took 0.016689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.518679 seconds.
+  path: Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE13422.asset
+  artifactKey: Guid(d3195a5545d421d408489f78ec55125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/BT_meshes/BT_DELETABLE13422.asset using Guid(d3195a5545d421d408489f78ec55125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202ba4ddc7524c2c14d693ab8621345c') in 0.014496 seconds 
+  Import took 0.017140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.262130 seconds.
+  path: Assets/laxer Assets/coaster/Animations/cart4.anim
+  artifactKey: Guid(91ffe07bd197c334c9ec62738c6b8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Animations/cart4.anim using Guid(91ffe07bd197c334c9ec62738c6b8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2394e3902033d551ce7c22272f902788') in 0.040424 seconds 
+  Import took 0.042737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.765733 seconds.
+  path: Assets/laxer Assets/coaster/Animations/cart3.anim
+  artifactKey: Guid(8da44a9872231394f81b8710e8ed1d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/Animations/cart3.anim using Guid(8da44a9872231394f81b8710e8ed1d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535a4981b9d9626bbd209c76436843eb') in 0.133123 seconds 
+  Import took 0.135457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.766701 seconds.
+  path: Assets/laxer Assets/coaster/AudioVelocityControl.cs
+  artifactKey: Guid(02e0503e46912ec4abc51e601027f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/AudioVelocityControl.cs using Guid(02e0503e46912ec4abc51e601027f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a287741401298852990327e1754d92ac') in 0.016068 seconds 
+  Import took 0.018493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.814497 seconds.
+  path: Assets/laxer Assets/coaster/tracks base for BT
+  artifactKey: Guid(5b42014c895917c4cbb37ad057460cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/coaster/tracks base for BT using Guid(5b42014c895917c4cbb37ad057460cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b9bdc9b70b3cd49c1fae146e60b1b0') in 0.005212 seconds 
+  Import took 0.007670 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.347 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+Total: 2.104500 ms (FindLiveObjects: 0.148300 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.833200 ms  DeleteObjects: 0.088800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
