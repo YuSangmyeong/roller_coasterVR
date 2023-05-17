@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine;
 using UnityEngine.UI;
+using Color = UnityEngine.Color;
 public class fade_in_out : MonoBehaviour
 {
     public float FadeTime = 2f; // Fade효과 재생시간
@@ -69,11 +70,17 @@ public class fade_in_out : MonoBehaviour
         isPlaying = true;
 
 
-        UnityEngine.Color fadeColor = fadeImg.color;
+        //UnityEngine.Color fadeColor = fadeImg.color;
+        //Color fadecolor = fadeImg.color;
+        //time = 0f;
+
+        //Color.a = Mathf.Lerp(start, end, time);
         Color fadecolor = fadeImg.color;
         time = 0f;
+        fadecolor.a = Mathf.Lerp(start, end, time);
+        fadeImg.color = fadecolor;
 
-        Color.a = Mathf.Lerp(start, end, time);
+
 
 
 
