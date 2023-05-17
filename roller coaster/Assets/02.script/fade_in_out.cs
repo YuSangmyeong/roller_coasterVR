@@ -6,99 +6,55 @@ using UnityEngine.UI;
 using Color = UnityEngine.Color;
 public class fade_in_out : MonoBehaviour
 {
-    public float FadeTime = 2f; // Fade효과 재생시간
-
-    Image fadeImg;
-
-    float start;
-
-    float end;
-
-    float time = 0f;
-
-    bool isPlaying = false;
-
-
-
+    GameObject SplashObj;               //판넬오브젝트
+    Image image;                            //판넬 이미지
+    private bool checkbool = false;     //투명도 조절 논리형 변수
     void Awake()
 
     {
 
-        fadeImg = GetComponent<Image>();
+        SplashObj = this.gameObject;                         //스크립트 참조된 오브젝트
 
-        InStartFadeAnim();
+        image = SplashObj.GetComponent<Image>();    //판넬오브젝트에 이미지 참조
 
     }
-
-    public void OutStartFadeAnim()
-
+    void Update()
     {
 
-        if (isPlaying == true) //중복재생방지
+        StartCoroutine("MainSplash");                        //코루틴    //판넬 투명도 조절
+
+        if (checkbool)                                            //만약 checkbool 이 참이면
 
         {
 
-            return;
+            Destroy(this.gameObject);                        //판넬 파괴, 삭제
 
         }
 
-        start = 1f;
-
-        end = 0f;
-
-        StartCoroutine("fadeoutplay");    //코루틴 실행
     }
-    public void InStartFadeAnim()
-
+    IEnumerator MainSplash()
     {
+        Color color = image.color;                            //color 에 판넬 이미지 참조
 
-        if (isPlaying == true) //중복재생방지
+        for (int i = 100; i >= 0; i--)                            //for문 100번 반복 0보다 작을 때 까지
 
         {
 
-            return;
+            color.a -= Time.deltaTime * 0.01f;               //이미지 알파 값을 타임 델타 값 * 0.01
+
+            image.color = color;                                //판넬 이미지 컬러에 바뀐 알파값 참조
+
+            if (image.color.a <= 0)                        //만약 판넬 이미지 알파 값이 0보다 작으면
+
+            {
+
+                checkbool = true;                              //checkbool 참 
+
+            }
 
         }
 
-        StartCoroutine("fadeIntanim");
-
-    }
-    IEnumerator fadeoutplay()
-
-    {
-
-        isPlaying = true;
-
-
-        //UnityEngine.Color fadeColor = fadeImg.color;
-        //Color fadecolor = fadeImg.color;
-        //time = 0f;
-
-        //Color.a = Mathf.Lerp(start, end, time);
-        Color fadecolor = fadeImg.color;
-        time = 0f;
-        fadecolor.a = Mathf.Lerp(start, end, time);
-        fadeImg.color = fadecolor;
-
-
-
-
-
-        while (fadecolor.a > 0f)
-
-        {
-
-            time += Time.deltaTime / FadeTime;
-
-            fadecolor.a = Mathf.Lerp(start, end, time);
-
-            fadeImg.color = fadecolor;
-
-            yield return null;
-
-        }
-
-        isPlaying = false;
+        yield return null;                                        //코루틴 종료
 
     }
 }
