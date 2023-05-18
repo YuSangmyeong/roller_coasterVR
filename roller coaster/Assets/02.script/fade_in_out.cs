@@ -40,7 +40,7 @@ public class fade_in_out : MonoBehaviour
 
         {
 
-            color.a -= Time.deltaTime * 0.01f;               //이미지 알파 값을 타임 델타 값 * 0.01
+            color.a -= Time.deltaTime * 0.001f;               //이미지 알파 값을 타임 델타 값 * 0.01
 
             image.color = color;                                //판넬 이미지 컬러에 바뀐 알파값 참조
 
