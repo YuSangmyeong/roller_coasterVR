@@ -4,13 +4,17 @@ using System.Drawing;
 using UnityEngine;
 using UnityEngine.UI;
 using Color = UnityEngine.Color;
+
+
 public class fade_in_out : MonoBehaviour
 {
-    GameObject SplashObj;               //판넬오브젝트
-    Image image;                            //판넬 이미지
+    private GameObject SplashObj;               //판넬오브젝트
+    private Image image;                            //판넬 이미지
     private bool checkbool = false;     //투명도 조절 논리형 변수
-    void Awake()
 
+    [SerializeField] private float timer = 3.0f;
+
+    void Awake()
     {
 
         SplashObj = this.gameObject;                         //스크립트 참조된 오브젝트
@@ -20,13 +24,16 @@ public class fade_in_out : MonoBehaviour
     }
     void Update()
     {
+        timer -= Time.deltaTime;
 
-        StartCoroutine("MainSplash");                        //코루틴    //판넬 투명도 조절
+        if (timer <= 0)
+        {
+            StartCoroutine("MainSplash");                        //코루틴    //판넬 투명도 조절
+        }
 
         if (checkbool)                                            //만약 checkbool 이 참이면
 
         {
-
             Destroy(this.gameObject);                        //판넬 파괴, 삭제
 
         }
@@ -39,7 +46,6 @@ public class fade_in_out : MonoBehaviour
         for (int i = 100; i >= 0; i--)                            //for문 100번 반복 0보다 작을 때 까지
 
         {
-
             color.a -= Time.deltaTime * 0.001f;               //이미지 알파 값을 타임 델타 값 * 0.01
 
             image.color = color;                                //판넬 이미지 컬러에 바뀐 알파값 참조
@@ -51,13 +57,12 @@ public class fade_in_out : MonoBehaviour
                 checkbool = true;                              //checkbool 참 
 
             }
-
         }
-
         yield return null;                                        //코루틴 종료
-
     }
 }
+
+
 
 
 
