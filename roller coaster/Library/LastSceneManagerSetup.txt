@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MarsEnv/Scene/Mars_scene.unity
+- path: Assets/04.scene/Testscene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

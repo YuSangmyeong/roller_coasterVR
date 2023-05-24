@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ParticleIO : MonoBehaviour
 {
-   public ParticleSystem dust;
+   public GameObject dust;
 
     private void Awake()
     {
@@ -23,9 +23,10 @@ public class ParticleIO : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.layer == 2)
+        if(other.gameObject.layer == 3)
         {
-            dust.Play();
+            dust.gameObject.SetActive(true);
+            Debug.Log("Trigger entered");
         }
     }
 }

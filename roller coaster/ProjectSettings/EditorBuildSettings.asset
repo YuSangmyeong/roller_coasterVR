@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MarsEnv/Scene/Mars_scene.unity
     guid: a63e9e46ee270c44aabcd8111bfacd95
+  - enabled: 1
+    path: Assets/04.scene/Testscene.unity
+    guid: 5a0db31a19b6d0a44a243016d8b01a94
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eb6a2b0cccc1da54dbe7c4f66f5c9527, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c47a2f89b32cf9f40a0c7ad329897ad8, type: 2}
